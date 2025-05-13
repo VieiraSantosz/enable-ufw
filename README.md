@@ -1,8 +1,5 @@
 <h1 align="center">
 
-![logo_ufw](https://github.com/user-attachments/assets/8158c009-5c51-401b-966d-429f1b0d1dc4)
-
-
 Script para ativação do UFW
 
 </h1>
@@ -18,8 +15,6 @@ Instruções para executar o script enable_ufw.sh.
 Antes de executar o script, verifique se o seu servidor atende aos seguintes requisitos:
 
 - **Sistema operacional:** Ubuntu ou Debian
-
-<br>
 
 ## Execução do Script
 **1. Atualizar o servidor**
