@@ -88,6 +88,19 @@ root () {
 }
 
 
+# Função para verificar a distribuição do sistema operacional
+check_so () {
+    source /etc/os-release
+    OS_NAME=$ID
+    
+    if [ "$OS_NAME" != "ubuntu" ] && [ "$OS_NAME" != "debian" ]; then
+        clear
+        echo -e "\n🚫 Atenção!!!"
+        echo -e "\nPara o funcionamento desse script, necessário que sua distribuição seja Debian ou Ubuntu.\n\n"
+        exit 1
+    fi
+}
+
 # Função para escrever o banner no início da instalação
 banner () {
     clear
@@ -153,6 +166,7 @@ show_allowed_ports () {
 ### Parte 1 - Validar se o Sistema Operacional possui o UFW instalado
 
 root
+check_so
 banner
 
 echo -e "\n\n-------- Verificando se seu Sistema Operacional possui o UFW (Firewall) ---------"
