@@ -1,9 +1,8 @@
 # !/bin/bash
 #
-# enable_ufw.sh - ativa o UFW e adiciona exceções de portas automaticamente
+# enable_ufw.sh - ativa o UFW e adicionar as portas ativas do sistema na regra de exceção do UFW.
 #
-# Autor..: Wesley Santos  <wesantos@goaheadit.com.br>
-# Auxílio: Daniel Brandão <dbrandao@goaheadit.com.br>
+# Autor..: Wesley Santos  <wesleyv760@gmail.com.br>
 #
 # -------------------------------------------------------------------------------------
 #
