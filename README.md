@@ -54,8 +54,11 @@ Agora, execute o script para iniciar a instalação do Grafana.
 ./enable_ufw.sh
 ```
 
-![image](https://github.com/user-attachments/assets/5f5ee545-e05f-4fc1-b5b5-305b7d141c47)
+![image](https://github.com/user-attachments/assets/b5c8b4c3-4c39-4834-bf12-c836a607aa07)
 
+Após a execução do script, serão exibidas as portas adicionadas às regras de exceção do UFW (firewall).
+
+![image](https://github.com/user-attachments/assets/7783b32f-6797-4550-8278-e6b45e1ed517)
 
 
 
