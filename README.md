@@ -1,5 +1,7 @@
 <h1 align="center">
 
+![image](https://github.com/user-attachments/assets/208b5073-3233-4ba3-aa4e-180979c800c0)
+
 Script para ativação do UFW
 
 </h1>
@@ -49,5 +51,12 @@ chmod +x enable_ufw.sh
 
 Agora, execute o script para iniciar a instalação do Grafana.
 ```bash
-./enable-ufw.sh
+./enable_ufw.sh
 ```
+
+![image](https://github.com/user-attachments/assets/5f5ee545-e05f-4fc1-b5b5-305b7d141c47)
+
+
+
+
+
