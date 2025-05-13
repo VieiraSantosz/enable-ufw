@@ -30,14 +30,14 @@ sudo apt update && sudo apt upgrade -y
 
 Clone o repositório onde o script de instalação está armazenado.
 ```bash
-git clone https://github.com/VieiraSantosz/enable-ufw.git
+git clone https://github.com/VieiraSantosz/script-ufw.git
 ```
 
 **3. Navegar até o diretório do script**
 
 Acesse a pasta onde o script foi clonado.
 ```bash
-cd enable-ufw
+cd script-ufw
 ```
 
 **4. Conceder permissões para o script**
